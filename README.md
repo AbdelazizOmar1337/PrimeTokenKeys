@@ -21,7 +21,7 @@ using SecretKey, Signature and your payload
             var key = primeKey.CreateKey("test");
             //OAkfqznOh/+/un2Orm6Pzm0Xuh6Amm16Muh__16iTzM3Wju2sQQ==
             
-            var payload = ke.WritePayload(keyDescriptor, key.Result);
+            var payload = key.WritePayload(keyDescriptor, key.Result);
             //test
 ```
 
