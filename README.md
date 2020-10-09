@@ -37,7 +37,7 @@ using SecretKey, Signature and your payload
                     UseSalt = false,
                     CoreKeyFormatterConfig = new CoreKeyFormatterConfig
                     {
-                        Format = PrimeFormatter.Ignore,
+                        Format = PrimeFormatter.Ignore, // or UseUnderscore
                         IsStrictedLength = false
                     }
                 }
